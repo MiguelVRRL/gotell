@@ -61,9 +61,9 @@ func InitialModel(filename string) model {
   
   ReadFile(filename)
   
-	return model{
+    return model{
 		// Our to-do list is a grocery list
-		choices:  fileToString,
+    choices:  fileToString,
     cursorY:  0,
     cursorX: 1,
     status:  1,
